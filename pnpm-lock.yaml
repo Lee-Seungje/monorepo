@@ -35,6 +35,33 @@ importers:
         specifier: 5.1.6
         version: 5.1.6
 
+  packages/client:
+    dependencies:
+      '@monorepo/common':
+        specifier: workspace:^
+        version: link:../common
+      '@types/node':
+        specifier: 20.4.9
+        version: 20.4.9
+      '@types/react':
+        specifier: 18.2.20
+        version: 18.2.20
+      '@types/react-dom':
+        specifier: 18.2.7
+        version: 18.2.7
+      next:
+        specifier: 13.4.13
+        version: 13.4.13(react-dom@18.2.0)(react@18.2.0)
+      react:
+        specifier: 18.2.0
+        version: 18.2.0
+      react-dom:
+        specifier: 18.2.0
+        version: 18.2.0(react@18.2.0)
+      typescript:
+        specifier: 5.1.6
+        version: 5.1.6
+
   packages/common:
     dependencies:
       react:

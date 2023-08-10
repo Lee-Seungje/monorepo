@@ -4,7 +4,10 @@
   "description": "",
   "packageManager": "pnpm@8.5.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "client": "pnpm --filter client",
+    "admin": "pnpm --filter admin",
+    "common": "pnpm --filter common"
   },
   "keywords": [],
   "author": "",

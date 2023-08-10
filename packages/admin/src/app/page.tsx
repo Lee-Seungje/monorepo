@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Button />
+      admin입니다.
     </main>
   );
 }
