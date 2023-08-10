@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
 
 export const Button = (): ReactElement => {
-  return <button>Click Me</button>;
+  return <button>누르세요</button>;
 };
